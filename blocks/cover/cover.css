@@ -1,0 +1,20 @@
+.cover {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../image/__background.jpg);
+    overflow: hidden;
+    background-size: 100%;
+    margin:  92px 48px;
+    padding: 0;
+    width: 1184px;
+    height: 740px;
+    border: 1px solid red;
+    z-index: 0;
+}
+
+
+
