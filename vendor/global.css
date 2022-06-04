@@ -3,7 +3,7 @@ body {
     background-color: #2A2C2F;
 }
 
-* {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
