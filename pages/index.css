@@ -86,7 +86,7 @@
 @font-face {
     src: url(../fonts/Inter/static/Inter-Regular.ttf),
          url(../fonts/Inter/static/Inter-Regular.woff2),
-         url(../fonts/Inter/static/Inter-Regular.woff);   
+         url(../fonts/Inter/static/Inter-Regular.woff);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -131,7 +131,7 @@
 @font-face {
     src: url(../fonts/Inter/static/Inter-Black.ttf),
          url(../fonts/Inter/static/Inter-Black.ttf),
-         url(../fonts/Inter/static/Inter-Black.ttf);  
+         url(../fonts/Inter/static/Inter-Black.ttf);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
