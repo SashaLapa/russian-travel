@@ -3,10 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: calc(100% - 148px*2);
-    min-height: 1005px;
-    border: 1px solid red;
-    margin-top: 56px;
-    margin-left: 148px;
-    margin-right: 148px;
+    max-width: 984px;
+    margin: 0 auto;
+    padding: 56px 0 46px 0;
 }

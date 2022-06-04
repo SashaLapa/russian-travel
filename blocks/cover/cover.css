@@ -1,20 +1,36 @@
 .cover {
-    text-decoration: none;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../../image/__background.jpg);
-    overflow: hidden;
-    background-size: 100%;
-    margin:  92px 48px;
+    max-width: 1280px;
+    margin: auto 48px;
     padding: 0;
-    width: 1184px;
-    height: 740px;
-    border: 1px solid red;
-    z-index: 0;
 }
 
+.cover:hover {
+    background: #2A2C2F;
+    opacity: 0.8;
+    
+}
 
+@media (max-width: 1024) {
+    .cover {
+        pmargin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover {
+        margin: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .cover {
+        margin: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover {
+        margin: 0;
+    }
+}
 
