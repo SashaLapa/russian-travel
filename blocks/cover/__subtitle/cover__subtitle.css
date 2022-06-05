@@ -6,15 +6,15 @@
     color: #FFFFFF;
     max-width: 360px;
     margin: 0 auto;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    top: 60%;
+    transform: translate(50%, 50%);
+    z-index: 1;
 }
 
 @media (max-width: 768px) {
-    .cover__subtitle {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 425px) {
     .cover__subtitle {
         font-size: 14px;
     }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    line-height: 18px;
 }
 
 @media (max-width: 768px) {

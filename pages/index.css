@@ -1,7 +1,5 @@
 @import url(../vendor/normalize.css);
 
-@import url(../vendor/global.css);
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__wrapper-lang-link/header__wrapper-lang-link.css);
@@ -11,9 +9,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../blocks/lead/__image-wrapper/lead__image-wrapper.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__image-extra/lead__image-extra.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/intro/intro.css);
@@ -25,14 +21,12 @@
 @import url(../blocks/intro/__list-item-no-bold/intro__list-item-no-bold.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/photo-grid/__img/photo-grid__img.css);
 
 
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/place/place.css);
+@import url(../blocks/places/place.css);
 @import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/__img-wrapper/place__img-wrapper.css);
 @import url(../blocks/places/place/__img/place__img.css);
 @import url(../blocks/places/place/__website/place__website.css);
 @import url(../blocks/places/place/__url-heading/place__url-heading.css);
@@ -43,9 +37,7 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
-@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__background-img/cover__background-img.css);
-@import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
@@ -54,34 +46,6 @@
 @import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
-@font-face {
-    src: url(../fonts/Inter/static/Inter-Thin.ttf),
-         url(../fonts/Inter/static/Inter-Thin.woff2),
-         url(../fonts/Inter/static/Inter-Thin.woff);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 100;
-}
-
-@font-face {
-    src: url(../fonts/Inter/static/Inter-ExtraLight.ttf),
-         url(../fonts/Inter/static/Inter-ExtraLight.woff2),
-         url(../fonts/Inter/static/Inter-ExtraLight.woff);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 200;
-}
-
-@font-face {
-    src: url(../fonts/Inter/static/Inter-Light.ttf),
-         url(../fonts/Inter/static/Inter-Light.woff2),
-         url(../fonts/Inter/static/Inter-Light.woff);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-}
 
 @font-face {
     src: url(../fonts/Inter/static/Inter-Regular.ttf),
@@ -93,36 +57,9 @@
 }
 
 @font-face {
-    src: url(../fonts/Inter/static/Inter-Medium.ttf),
-         url(../fonts/Inter/static/Inter-Medium.woff2),
-         url(../fonts/Inter/static/Inter-Medium.woff);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-}
-
-@font-face
- {
-    src: url(../fonts/Inter/static/Inter-SemiBold.ttf),
-         url(../fonts/Inter/static/Inter-SemiBold.woff2),
-         url(../fonts/Inter/static/Inter-SemiBold.woff);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
- }
-@font-face {
     src: url(../fonts/Inter/static/Inter-Bold.ttf),
          url(../fonts/Inter/static/Inter-Bold.woff2),
          url(../fonts/Inter/static/Inter-Bold.woff);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-}
-
-@font-face {
-    src: url(../fonts/Inter/static/Inter-ExtraBold.ttf),
-         url(../fonts/Inter/static/Inter-ExtraBold.woff2),
-         url(../fonts/Inter/static/Inter-ExtraBold.woff);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;

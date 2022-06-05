@@ -5,5 +5,17 @@
     align-items: center;
     max-width: 984px;
     margin: 0 auto;
-    padding: 56px 0 46px 0;
+    padding: 28px 0 46px 0;
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        padding: 20px 0;
+    }
 }

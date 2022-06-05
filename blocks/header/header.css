@@ -4,13 +4,13 @@
     align-items: flex-end;
     max-width: 1280px;
     min-height: 52px;
-    padding: 28px 48px 56px 48px;
+    padding: 28px 48px 28px 48px;
     margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
     .header {
-        padding: 28px 48px 48px 48px;
+        padding: 28px 48px 20px 48px;
     }
 }
 
@@ -22,6 +22,6 @@
 
 @media (max-width: 320px) {
     .header {
-        padding: 16px 16px 48px 16px;
+        padding: 16px 16px 28px 16px;
     }
 }

@@ -13,23 +13,9 @@
     --color: rgba(255, 255, 255, 0.8);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .footer__link {
         margin-bottom: 32px;
         font-size: 24px;
     }
-}
-
-@media (max-width: 425px) {
-    .footer__link {
-        margin-bottom: 32px;
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 320px) {
-    .footer__link {
-        margin-bottom: 32px;
-        font-size: 24px;
-    }
-}
+} */
