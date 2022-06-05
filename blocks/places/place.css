@@ -5,6 +5,7 @@
     grid-template-areas: "place__title place__website" 
                          "place__img place__description";
     gap: 48px 40px;
+    background-color: #2A2C2F;
 }
 
 @media (max-width: 1024px) { 

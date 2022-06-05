@@ -6,6 +6,7 @@
     min-height: 52px;
     padding: 28px 48px 28px 48px;
     margin: 0 auto;
+    background-color: #2A2C2F;
 }
 
 @media (max-width: 1024px) {
