@@ -9,7 +9,7 @@
     <title>Путешествие по России</title>
 </head>
 
-<body>
+<body class="body">
     <header class="header">
         <img class="header__logo" src="./image/__logo.svg" alt="логотип">
         <div class="header__wrapper-lang-link">
@@ -33,7 +33,7 @@
 
         <section class="intro">
             <div class="intro__wrapper">
-                <h2 class="intro__title">Чего мы там не видели?</h2>
+                <h2 class="intro__title">Чего&nbsp;мы&nbsp;там не&nbsp;видели?</h2>
                 <p class="intro__text">
                     По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
                     но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут,
@@ -195,8 +195,8 @@
 
         <section class="cover">   
             <a class="cover__overlay" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-                    <img class="cover__background-img" src="./image/__background.jpg" alt="картинка вагоны">
-                    <h4 class="cover__title">До Байкала «на собаках»</h4>
+                <div class="cover__background"></div>
+                    <h4 class="cover__title">До Байкала «на&nbsp;собаках»</h4>
                     <p class="cover__subtitle">
                         По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
                         на электричках.
@@ -207,18 +207,13 @@
     </main>    
 
      <footer class="footer">
-        <ul class="footer__list">
-            <li class="footer__list-item"><a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
-            </li>
-            <li class="footer__list-item"><a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
-            </li>
-            <li class="footer__list-item"><a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
-            </li>
-            <li class="footer__list-item"><a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
-            </li>
-            <li class="footer__list-item"><a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
-            </li>
-        </ul>
+            <nav class="footer__list">
+                <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
+                <a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a>
+                <a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a>
+                <a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a>
+                <a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a>
+            </nav>
              <p class="footer__copyright">© 2020. Впишите своё имя</p>
     </footer>
 </body>

@@ -1,24 +1,25 @@
 .cover {
-    max-width: 1184px;
+    width: calc(100% - 48px * 2);
     margin: 0 auto;
     padding: 46px 0;
-    background-color: #2A2C2F;
+    background-size: cover;
 }
 
 @media (max-width: 1024) {
     .cover {
         margin: 0;
+        width: 100%;
     }
 }
 
 @media (max-width: 768px) {
     .cover {
-        padding: 44px;
+        padding: 44px 0;
     }
 }
 
 @media (max-width: 320px) {
     .cover {
-        padding: 20px 0 0 0;
+        padding: 22px 0 32px 0;
     }
 }

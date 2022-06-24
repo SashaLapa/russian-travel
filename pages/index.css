@@ -1,5 +1,9 @@
 @import url(../vendor/normalize.css);
 
+@import url(../blocks/body/body.css);
+
+@import url(../fonts/Inter/fonts.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__wrapper-lang-link/header__wrapper-lang-link.css);
@@ -37,39 +41,12 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__background-img/cover__background-img.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
-@import url(../blocks/footer/__list-item/footer__list-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-@font-face {
-    src: url(../fonts/Inter/static/Inter-Regular.ttf),
-         url(../fonts/Inter/static/Inter-Regular.woff2),
-         url(../fonts/Inter/static/Inter-Regular.woff);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    src: url(../fonts/Inter/static/Inter-Bold.ttf),
-         url(../fonts/Inter/static/Inter-Bold.woff2),
-         url(../fonts/Inter/static/Inter-Bold.woff);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-}
-
-@font-face {
-    src: url(../fonts/Inter/static/Inter-Black.ttf),
-         url(../fonts/Inter/static/Inter-Black.ttf),
-         url(../fonts/Inter/static/Inter-Black.ttf);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-}
