@@ -5,7 +5,7 @@
     background-size: cover;
 }
 
-@media (max-width: 1024) {
+@media (max-width: 1024px) {
     .cover {
         margin: 0;
         width: 100%;

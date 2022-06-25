@@ -7,6 +7,9 @@
     text-decoration: none;
     width: 100%;
     min-height: 740px;
+    background-image: url(../../../image/__background.jpg);
+    z-index: 0;
+    background-size: cover;
 }
 
 @media (max-width: 1024px) {
