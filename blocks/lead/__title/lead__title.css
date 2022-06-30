@@ -9,9 +9,16 @@
     max-width: 720px;
 }
 
+@media (max-width: 768px) {
+    .lead__title {
+        font-size: 8vh;
+        line-height: 1;
+    }
+}
+
 @media (max-width: 425px) {
     .lead__title {
-        font-size: 56px;
+        font-size: 6vh;
         line-height: 1;
     }
 }

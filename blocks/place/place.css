@@ -4,6 +4,11 @@
     grid-template-areas: "place__title place__website" 
                          "place__img place__description";
     gap: 48px 40px;
+    padding-bottom: 80px;
+}
+
+.place:nth-child(5) {
+    padding: 0;
 }
 
 @media (max-width: 1024px) { 

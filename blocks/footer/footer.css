@@ -11,13 +11,13 @@
 
 @media (max-width: 768px) {
     .footer {
-        padding: 44px 24px 24px 24px;
+        padding: 71px 24px 24px 24px;
     }
 }
 
 @media (max-width: 320px) {
     .footer {
-        padding: 20px 118px 24px 16px;
+        padding: 32px 118px 24px 16px;
         flex-direction: column;
         align-items: flex-start;
     }
