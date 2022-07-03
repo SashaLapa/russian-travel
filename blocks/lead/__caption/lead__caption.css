@@ -9,11 +9,11 @@
     align-self: flex-start;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .lead__caption {
         padding: 0 48px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .lead__caption {
